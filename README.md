@@ -18,6 +18,18 @@ Cancanちゃんです
 
 <div align="center">
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Furinaaa-Cancan&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF69B4&icon_color=FF69B4&text_color=C9D1D9)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Furinaaa-Cancan&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF69B4&text_color=C9D1D9)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Furinaaa-Cancan&theme=radical&hide_border=true&background=0D1117&ring=FF69B4&fire=FF69B4&currStreakLabel=FF69B4)
+
+</div>
+
+---
+
+<div align="center">
+
 **Email:** cancansauce@163.com
 
 *"コードで情熱を、創造で心を"*  
