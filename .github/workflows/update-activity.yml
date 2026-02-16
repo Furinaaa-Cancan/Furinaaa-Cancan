@@ -15,12 +15,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Update README with recent activity
-        uses: Readme-Workflows/recent-activity@v2.4.1
+      - name: Update README with GitHub activity
+        uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           COMMIT_MSG: "chore: update recent activity"
           MAX_LINES: 5
-          README_FILE_PATH: "README.md"
-          TARGET_BRANCH: "main"
