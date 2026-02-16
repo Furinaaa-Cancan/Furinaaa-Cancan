@@ -2,7 +2,7 @@
 
 # 你好! I'm Cancan
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;AI+%26+Computer+Vision+Researcher;Python+%7C+TypeScript+%7C+Swift+%7C+C;%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A7%E6%9C%AA%E6%9D%A5%E3%82%92%E5%89%B5%E3%82%8B" alt="Typing SVG" />
+### Full-Stack Developer | AI & Computer Vision Researcher
 
 </div>
 
