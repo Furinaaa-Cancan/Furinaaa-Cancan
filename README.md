@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=FF69B4&center=true&vCenter=true&width=940&lines=你好!+I'm+Cancan+✨;Cancanちゃんです~+💖;Full-Stack+Developer+|+AI+Researcher" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=FF69B4&center=true&vCenter=true&width=940&lines=你好!+I'm+Cancan;Cancanちゃんです~;Full-Stack+Developer+|+AI+Researcher" alt="Typing SVG" />
 
 </div>
 
