@@ -18,15 +18,12 @@ Cancanちゃんです
 
 ---
 
-### Stats
+### Projects
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Furinaaa-Cancan&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF69B4&icon_color=FF69B4&text_color=C9D1D9" alt="stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Furinaaa-Cancan&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF69B4&text_color=C9D1D9" alt="languages" />
-</p>
+- **AnimVoicePipeline** - AI语音克隆音频提取工具 (Python, PyTorch)
+- **SHARP-Metal** - 3D Gaussian Splatting渲染器 (Swift, Metal)
+- **NanoBanana-AI** - AI装修效果图生成平台 (Next.js, FastAPI)
+- **eastmoney-crawler** - A股数据可视化分析 (HTML, JavaScript)
 
 ---
 
