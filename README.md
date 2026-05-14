@@ -42,19 +42,13 @@
 
 <div align="center">
 
-<!-- Stats + Top Languages -->
+<!-- Stats + Streak -->
 <img width="46%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Furinaaa-Cancan&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=1C1A18&title_color=B8A5A8&icon_color=B8A5A8&text_color=D4C9BE&ring_color=A8907E" />
-<img width="46%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Furinaaa-Cancan&layout=compact&langs_count=8&hide_border=true&bg_color=1C1A18&title_color=B8A5A8&text_color=D4C9BE" />
-
-<br/>
-
-<!-- Productive Time + Most Committed Language -->
-<img width="46%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Furinaaa-Cancan&theme=kacho_ga&utcOffset=8" />
-<img width="46%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Furinaaa-Cancan&theme=kacho_ga" />
+<img width="46%" src="https://github-readme-streak-stats.herokuapp.com?user=Furinaaa-Cancan&hide_border=true&background=1C1A18&stroke=A8907E&ring=B8A5A8&fire=C9A0A0&currStreakNum=D4C9BE&sideNums=D4C9BE&currStreakLabel=B8A5A8&sideLabels=B8A5A8&dates=8B847C" />
 
 <br/><br/>
 
-<!-- Visitors badge -->
-<img src="https://komarev.com/ghpvc/?username=Furinaaa-Cancan&label=Profile%20views&color=B8A5A8&style=flat" />
+<!-- Activity Graph 趋势图 -->
+<img width="94%" src="https://github-readme-activity-graph.vercel.app/graph?username=Furinaaa-Cancan&hide_border=true&bg_color=1C1A18&color=D4C9BE&line=B8A5A8&point=C9A0A0&area=true&area_color=A8907E&custom_title=Contribution%20Activity%20%C2%B7%20%E8%B4%A1%E7%8C%AE%E8%B6%8B%E5%8A%BF" />
 
 </div>
