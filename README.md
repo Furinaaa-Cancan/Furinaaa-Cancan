@@ -40,12 +40,42 @@
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=Furinaaa-Cancan&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=A78BFA&icon_color=A78BFA&text_color=E5E7EB&ring_color=A78BFA" />
-  <img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Furinaaa-Cancan&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=6D28D9&icon_color=7C3AED&text_color=1F2937&ring_color=7C3AED" />
-</picture>
+<div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Furinaaa-Cancan&hide_border=true&bg_color=00000000&color=E5E7EB&line=A78BFA&point=A78BFA&area=true&area_color=A78BFA&custom_title=Contribution%20Activity" />
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Furinaaa-Cancan&hide_border=true&bg_color=00000000&color=1F2937&line=7C3AED&point=7C3AED&area=true&area_color=DDD6FE&custom_title=Contribution%20Activity" />
-</picture>
+<!-- Profile Summary -->
+<img width="92%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Furinaaa-Cancan&theme=github_dark_dimmed" />
+
+<br/>
+
+<!-- Stats + Top Languages -->
+<img width="46%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Furinaaa-Cancan&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=A78BFA&text_color=C9D1D9&ring_color=A78BFA" />
+<img width="46%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Furinaaa-Cancan&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" />
+
+<br/>
+
+<!-- Streak + Repos Per Language -->
+<img width="46%" src="https://github-readme-streak-stats.herokuapp.com?user=Furinaaa-Cancan&hide_border=true&background=0D1117&stroke=A78BFA&ring=A78BFA&fire=C4B5FD&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=A78BFA&sideLabels=A78BFA&dates=8B949E" />
+<img width="46%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Furinaaa-Cancan&theme=github_dark_dimmed" />
+
+<br/>
+
+<!-- Productive Time + Most Committed Language -->
+<img width="46%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Furinaaa-Cancan&theme=github_dark_dimmed&utcOffset=8" />
+<img width="46%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Furinaaa-Cancan&theme=github_dark_dimmed" />
+
+<br/><br/>
+
+<!-- Activity Graph -->
+<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=Furinaaa-Cancan&hide_border=true&bg_color=0D1117&color=C9D1D9&line=A78BFA&point=C4B5FD&area=true&area_color=A78BFA&custom_title=Contribution%20Activity%20%C2%B7%20%E8%B4%A1%E7%8C%AE%E8%B6%8B%E5%8A%BF" />
+
+<br/><br/>
+
+<!-- Trophy -->
+<img width="92%" src="https://github-profile-trophy.vercel.app/?username=Furinaaa-Cancan&theme=onedark&no-frame=true&row=1&column=7&margin-w=12&margin-h=10" />
+
+<br/><br/>
+
+<!-- Visitors badge -->
+<img src="https://komarev.com/ghpvc/?username=Furinaaa-Cancan&label=Profile%20views&color=A78BFA&style=flat" />
+
+</div>
