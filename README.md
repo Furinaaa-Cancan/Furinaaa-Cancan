@@ -8,12 +8,12 @@
 
 ### Bioinformatics
 
-目前主要做基于大型人群队列数据库的生信分析，常用数据源包括 NHANES、KNHANES、UK Biobank、CHARLS、ELSA、ELSA-Brasil 等，核心方法是机器学习预测建模与无监督聚类，用来挖掘健康相关的风险因素与表型分群。
+Bioinformatics analyses based on large population cohort databases — NHANES, KNHANES, UK Biobank, CHARLS, ELSA, ELSA-Brasil. Building a governance framework for AI-driven clinical prediction models under top-journal review standards.
+
+Also working on LLM-assisted processing of nutrition databases: FNDDS, PE Polyphenol, USDA.
 
 ---
 
-<div align="center">
+基于大型人群队列数据库（NHANES、KNHANES、UK Biobank、CHARLS、ELSA、ELSA-Brasil）开展生信分析，在此基础上建立顶刊级审稿标准 × AI 驱动的医学预测模型治理框架。
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Furinaaa-Cancan&theme=graywhite&hide_border=true&background=FFFFFF&stroke=2A2A2A&ring=6B4FA0&fire=6B4FA0&currStreakNum=2A2A2A&sideNums=2A2A2A&currStreakLabel=6B4FA0&sideLabels=2A2A2A&dates=6B6B6B" width="78%"/>
-
-</div>
+营养学方向：结合 LLM 处理 FNDDS、PE 多酚数据库、USDA 相关数据。
