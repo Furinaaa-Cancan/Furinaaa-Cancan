@@ -27,13 +27,13 @@
 
 ### Engineering
 
-**RAG + LLM + Full-Stack** — building end-to-end enterprise systems.
+**RAG + LLM + Full-Stack + Deployment + Web Scraping** — building end-to-end enterprise systems.
 
 <details>
 <summary><b>中文简介</b></summary>
 
 <br/>
 
-**方向：** RAG + LLM + 全栈开发，面向端到端企业级系统。
+**方向：** RAG + LLM + 全栈开发 + 部署运维 + 爬虫，面向端到端企业级系统。
 
 </details>
