@@ -40,12 +40,12 @@
 
 ---
 
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=Furinaaa-Cancan&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=A78BFA&icon_color=A78BFA&text_color=E5E7EB&ring_color=A78BFA" />
+  <img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Furinaaa-Cancan&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=6D28D9&icon_color=7C3AED&text_color=1F2937&ring_color=7C3AED" />
+</picture>
 
-<img width="78%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Furinaaa-Cancan&show_icons=true&count_private=true&include_all_commits=true&theme=graywhite&hide_border=true&bg_color=FFFFFF&title_color=2A2A2A&icon_color=6B4FA0&text_color=2A2A2A&ring_color=6B4FA0" />
-
-<br/><br/>
-
-<img width="78%" src="https://github-readme-activity-graph.vercel.app/graph?username=Furinaaa-Cancan&theme=minimal&hide_border=true&bg_color=FFFFFF&color=2A2A2A&line=6B4FA0&point=2A2A2A&area=true&area_color=E8DFF5" />
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Furinaaa-Cancan&hide_border=true&bg_color=00000000&color=E5E7EB&line=A78BFA&point=A78BFA&area=true&area_color=A78BFA&custom_title=Contribution%20Activity" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Furinaaa-Cancan&hide_border=true&bg_color=00000000&color=1F2937&line=7C3AED&point=7C3AED&area=true&area_color=DDD6FE&custom_title=Contribution%20Activity" />
+</picture>
