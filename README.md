@@ -12,7 +12,7 @@
 
 ### Engineering
 
-**RAG / DCI + LLM / Agent** — architecture design and implementation of agent systems.
+**Agentic RAG · code/repo search (ripgrep) · LLM / Agent** — architecture design and implementation of agent systems.
 
 **Full-stack development + deployment & ops** — delivering end-to-end enterprise systems.
 
@@ -21,7 +21,7 @@
 
 <br/>
 
-RAG / DCI + LLM / Agent 智能体架构设计与落地。
+Agentic RAG · 代码/仓库检索 (ripgrep) · LLM / Agent —— 智能体架构设计与落地。
 
 全栈开发 + 部署运维，交付端到端企业级系统。
 
