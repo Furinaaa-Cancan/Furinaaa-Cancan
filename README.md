@@ -2,11 +2,9 @@
 
 # Cancan
 
+**Biomedical Engineering (BME)** · Agentic AI Systems · Clinical Prediction Modeling
+
 </div>
-
----
-
-**Biomedical Engineering (BME)** major.
 
 ---
 
