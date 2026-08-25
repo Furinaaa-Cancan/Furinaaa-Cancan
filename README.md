@@ -31,7 +31,7 @@ Agentic RAG · 代码/仓库检索 (ripgrep) · LLM / Agent —— 智能体架�
 
 **Heterogeneity-driven association analysis** across large population cohorts — **NHANES · KNHANES · UK Biobank · CHARLS · ELSA · ELSA-Brasil** — combining machine learning with epidemiological modeling, toward a **governance framework for AI-driven clinical prediction models** under top-journal review standards.
 
-**Auditable LLM-assisted food matching** across dietary-composition databases — **USDA · FNDDS · Phenol-Explorer**
+**Auditable LLM-assisted food matching** across dietary-composition databases — **USDA · FNDDS · FPED · FPID · Phenol-Explorer**
 
 <details>
 <summary><b>中文简介</b></summary>
@@ -40,7 +40,7 @@ Agentic RAG · 代码/仓库检索 (ripgrep) · LLM / Agent —— 智能体架�
 
 基于大型人群队列（**NHANES、KNHANES、UK Biobank、CHARLS、ELSA、ELSA-Brasil**），结合机器学习与流行病学建模，开展异质性（heterogeneity）驱动的关联分析，建立「顶刊级审稿标准 × AI 驱动」的医学预测模型治理框架。
 
-基于膳食成分数据库（**USDA、FNDDS、Phenol-Explorer**）的可审计 LLM 辅助食物匹配。
+基于膳食成分数据库（**USDA、FNDDS、FPED、FPID、Phenol-Explorer**）的可审计 LLM 辅助食物匹配。
 
 </details>
 
