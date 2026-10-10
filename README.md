@@ -46,6 +46,21 @@ Agentic RAG · 代码/仓库检索 (ripgrep) · LLM / Agent —— 智能体架�
 
 ---
 
+### Neuroimaging
+
+**Infant brain development · ages 0–6** — multimodal analysis of longitudinal brain imaging, behavioral and environmental data, using medical-imaging AI to map how brain structure, function and connectivity develop, toward predicting cognitive outcomes and early identification of ASD and ADHD.
+
+<details>
+<summary><b>中文简介</b></summary>
+
+<br/>
+
+**婴幼儿脑发育 · 0–6 岁** —— 脑影像、行为与环境的多模态纵向数据分析，用医学影像人工智能刻画脑结构、功能与连接的发育轨迹，服务认知发展预测与 ASD、ADHD 等发育异常的早期识别。
+
+</details>
+
+---
+
 ### REM Lab
 
 **Resonance · Embodiment · Musicality** — a self-founded independent research group on how virtual characters look, speak, and sing.
