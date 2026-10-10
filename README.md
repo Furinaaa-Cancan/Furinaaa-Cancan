@@ -50,7 +50,7 @@ Agentic RAG · 代码/仓库检索 (ripgrep) · LLM / Agent —— 智能体架�
 
 **Resonance · Embodiment · Musicality** — an independent research group on how virtual characters look, speak, and sing.
 
-**Live2D · AI Voice · AI Singing** — an all-AI workflow built with Codex, from illustration and rigging to character voices and singing covers. Series so far: virtual character, jelly eyes, four-corner head turn, full hair, AI cover. [Explore ↗](https://furinaaa-cancan.github.io/cancan-portfolio/projects/rem-lab/)
+**Live2D · AI Voice · AI Singing** — an all-AI workflow built with Codex, from illustration and rigging to character voices and singing covers. Series so far: virtual character, jelly eyes, four-corner head turn, full hair, AI cover.
 
 <details>
 <summary><b>中文简介</b></summary>
