@@ -3,6 +3,8 @@ name: Profile cards
 # Renders the README stats, streak and activity cards inside Actions and commits
 # them to profile/, so the README no longer depends on public hosted endpoints.
 # A card that fails to render keeps its previous version.
+# Optional STATS_TOKEN secret (classic PAT, repo + read:user) lets the stats
+# card count commits in private repositories; it is passed to that card only.
 
 on:
   schedule:
@@ -37,7 +39,7 @@ jobs:
           card: stats
           options: "username=Furinaaa-Cancan&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=1F1815&title_color=E8B4A0&icon_color=E8B4A0&text_color=F5E6D8&ring_color=C9826F"
           path: .cards-tmp/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: "true"
 
       - name: Streak card
