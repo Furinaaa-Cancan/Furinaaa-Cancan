@@ -48,18 +48,18 @@ Agentic RAG · 代码/仓库检索 (ripgrep) · LLM / Agent —— 智能体架�
 
 ### REM Lab
 
-**Resonance · Embodiment · Musicality** — an independent research group on how virtual characters look, speak, and sing.
+**Resonance · Embodiment · Musicality** — a self-founded independent research group on how virtual characters look, speak, and sing.
 
-**Live2D · AI Voice · AI Singing** — an all-AI workflow built with Codex, from illustration and rigging to character voices and singing covers. Series so far: virtual character, jelly eyes, four-corner head turn, full hair, AI cover.
+**Live2D · AI Voice · AI Singing** — an all-AI workflow built with Codex for livestreaming and creator content. Live2D runs from illustration, layer separation and rigging to expressions, lip sync and motion control; AI voice builds character datasets and speech synthesis with a consistent, natural timbre; AI singing chains vocal separation, voice conversion, line-by-line refinement and mixing. Five episodes so far: virtual character, jelly eyes, four-corner head turn, full hair, AI cover.
 
 <details>
 <summary><b>中文简介</b></summary>
 
 <br/>
 
-**Resonance · Embodiment · Musicality** —— 独立课题组，研究虚拟角色的形象、声音与音乐表达。
+**Resonance · Embodiment · Musicality** —— 自建独立课题组，研究虚拟角色的形象、声音与音乐表达。
 
-**Live2D · AI 语音 · AI 翻唱** —— 用 Codex 全 AI 制作，从原画、建模到角色语音与翻唱。已完成虚拟角色、果冻眼、四角合成、完整头发、AI 翻唱五期实践。
+**Live2D · AI 语音 · AI 翻唱** —— 用 Codex 全 AI 制作，面向直播与自媒体内容。Live2D 从原画、分层、建模做到表情口型与动作控制；AI 语音围绕语料构建与角色语音合成，追求音色一致、发音自然；AI 翻唱打通人声分离、音色转换、逐句修整与混音。已完成虚拟角色、果冻眼、四角合成、完整头发、AI 翻唱五期实践。
 
 </details>
 
