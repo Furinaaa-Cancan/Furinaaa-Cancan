@@ -50,7 +50,7 @@ Agentic RAG · 代码/仓库检索 (ripgrep) · LLM / Agent —— 智能体架�
 
 **Resonance · Embodiment · Musicality** — a self-founded independent research group on how virtual characters look, speak, and sing.
 
-**Live2D · AI Voice · AI Singing** — an all-AI workflow built with Codex for livestreaming and creator content. Live2D runs from illustration, layer separation and rigging to expressions, lip sync and motion control; AI voice builds character datasets and speech synthesis with a consistent, natural timbre; AI singing chains vocal separation, voice conversion, line-by-line refinement and mixing.
+**Live2D · AI Voice · AI Singing** — an all-AI workflow built with Codex for livestreaming and creator content: Live2D from illustration and rigging to expressions, lip sync and motion; character speech synthesis; and AI covers through vocal separation, voice conversion and mixing.
 
 <details>
 <summary><b>中文简介</b></summary>
@@ -59,7 +59,7 @@ Agentic RAG · 代码/仓库检索 (ripgrep) · LLM / Agent —— 智能体架�
 
 **Resonance · Embodiment · Musicality** —— 自建独立课题组，研究虚拟角色的形象、声音与音乐表达。
 
-**Live2D · AI 语音 · AI 翻唱** —— 用 Codex 全 AI 制作，面向直播与自媒体内容。Live2D 从原画、分层、建模做到表情口型与动作控制；AI 语音围绕语料构建与角色语音合成，追求音色一致、发音自然；AI 翻唱打通人声分离、音色转换、逐句修整与混音。
+**Live2D · AI 语音 · AI 翻唱** —— 用 Codex 全 AI 制作，面向直播与自媒体内容：Live2D 从原画、建模到表情口型与动作；AI 语音做角色语音合成；AI 翻唱打通人声分离、音色转换与混音。
 
 </details>
 
