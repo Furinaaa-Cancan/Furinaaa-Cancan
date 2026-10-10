@@ -63,7 +63,7 @@ Agentic RAG · 代码/仓库检索 (ripgrep) · LLM / Agent —— 智能体架�
 
 ### REM Lab
 
-**Resonance · Embodiment · Musicality** — a self-founded independent research group on how virtual characters look, speak, and sing.
+**Resonance · Embodiment · Musicality** — a self-founded research group on how virtual characters look, speak, and sing.
 
 **Live2D · AI Voice · AI Singing** — an all-AI workflow built with Codex for livestreaming and creator content: Live2D from illustration and rigging to expressions, lip sync and motion; character speech synthesis; and AI covers through vocal separation, voice conversion and mixing.
 
