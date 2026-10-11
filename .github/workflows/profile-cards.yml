@@ -2,9 +2,8 @@ name: Profile cards
 
 # Renders the README stats, streak and activity cards inside Actions and commits
 # them to profile/, so the README no longer depends on public hosted endpoints.
-# A card that fails to render keeps its previous version.
-# Optional STATS_TOKEN secret (classic PAT, repo + read:user) lets the stats
-# card count commits in private repositories; it is passed to that card only.
+# The stats card is rendered by scripts/stats-card.mjs; streak and activity use
+# their upstream renderers. A card that fails to render keeps its previous version.
 
 on:
   schedule:
@@ -14,6 +13,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/profile-cards.yml"
+      - "scripts/**"
 
 permissions:
   contents: write
@@ -32,15 +32,15 @@ jobs:
       - name: Prepare output directory
         run: mkdir -p .cards-tmp
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
       - name: Stats card
         continue-on-error: true
-        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
-        with:
-          card: stats
-          options: "username=Furinaaa-Cancan&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=1F1815&title_color=E8B4A0&icon_color=E8B4A0&text_color=F5E6D8&ring_color=C9826F"
-          path: .cards-tmp/stats.svg
-          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
-          fail_on_error: "true"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/stats-card.mjs .cards-tmp/stats.svg Furinaaa-Cancan
 
       - name: Streak card
         continue-on-error: true
@@ -57,10 +57,6 @@ jobs:
           ref: 0962e9461de815933d462e8b98c7ce566cada8fb
           path: .activity-graph
           persist-credentials: false
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
 
       - name: Activity graph
         continue-on-error: true
