@@ -1,6 +1,6 @@
 <svg width="467" height="195" viewBox="0 0 467 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="descId">
   <title id="titleId">Cancan&#39;s GitHub Stats, Rank: A-</title>
-  <desc id="descId">Total Stars Earned: 183, Total Commits: 10485, Total PRs: 51, Total Issues: 95, Contributed to (last year): 2</desc>
+  <desc id="descId">Total Stars Earned: 183, Total Commits: 10490, Total PRs: 51, Total Issues: 95, Contributed to (last year): 2</desc>
   <style>
     .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #E8B4A0; animation: fadeInAnimation 0.8s ease-in-out forwards; }
     @supports(-moz-appearance: auto) { .header { font-size: 15.5px; } }
@@ -15,7 +15,7 @@
       stroke: #C9826F; stroke-dasharray: 250; fill: none; stroke-width: 6; stroke-linecap: round; opacity: 0.8;
       transform-origin: -10px 8px; transform: rotate(-90deg); animation: rankAnimation 1s forwards ease-in-out;
     }
-    @keyframes rankAnimation { from { stroke-dashoffset: 251.32741228718345; } to { stroke-dashoffset: 77.784527362858; } }
+    @keyframes rankAnimation { from { stroke-dashoffset: 251.32741228718345; } to { stroke-dashoffset: 77.78442624398693; } }
     @keyframes scaleInAnimation { from { transform: translate(-5px, 5px) scale(0); } to { transform: translate(-5px, 5px) scale(1); } }
     @keyframes fadeInAnimation { from { opacity: 0; } to { opacity: 1; } }
   </style>
