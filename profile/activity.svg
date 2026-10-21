@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
   <title id="title">Furinaaa-Cancan / GitHub activity</title>
-  <desc id="desc">Furinaaa-Cancan: 10,825 contributions since 2024-08-16; current streak 243 days; longest streak 243 days; 184 stars across 28 public repositories. 1,076 contributions / 30 days. Updated 2026-10-21 UTC.</desc>
+  <desc id="desc">Furinaaa-Cancan: 10,829 contributions since 2024-08-16; current streak 243 days; longest streak 243 days; 184 stars across 28 public repositories. 1,080 contributions / 30 days. Updated 2026-10-21 UTC.</desc>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #eeeae4; }
     .eyebrow { font-size: 13px; font-weight: 600; letter-spacing: 2px; }
@@ -17,7 +17,7 @@
   <text class="note muted" x="920" y="43" text-anchor="end">@Furinaaa-Cancan</text>
   <g transform="translate(40, 101)">
       <text class="label">Contributions</text>
-      <text class="value" y="47">10,825</text>
+      <text class="value" y="47">10,829</text>
       <text class="muted note" y="73">all time</text>
     </g><g transform="translate(260, 101)">
       <text class="label">Current streak</text>
@@ -34,7 +34,7 @@
     </g>
   <path class="grid" d="M40 210H920"/>
   <text class="heading" x="40" y="248">Contribution activity</text>
-  <text class="note muted" x="920" y="248" text-anchor="end">1,076 contributions / 30 days</text>
+  <text class="note muted" x="920" y="248" text-anchor="end">1,080 contributions / 30 days</text>
   <path class="grid" d="M74 416H920"/>
       <text class="tick muted" text-anchor="end" x="62" y="420">0</text><path class="grid" d="M74 352H920"/>
       <text class="tick muted" text-anchor="end" x="62" y="356">100</text><path class="grid" d="M74 288H920"/>
@@ -96,8 +96,8 @@
       <title>2026-10-19: 6 contributions</title>
     </rect><rect x="868.82" y="398.08" width="17.77" height="17.92" rx="3.00" fill="#8aada8">
       <title>2026-10-20: 28 contributions</title>
-    </rect><rect x="897.02" y="414.08" width="17.77" height="1.92" rx="0.96" fill="#e6b98a">
-      <title>2026-10-21: 3 contributions</title>
+    </rect><rect x="897.02" y="411.52" width="17.77" height="4.48" rx="2.24" fill="#e6b98a">
+      <title>2026-10-21: 7 contributions</title>
     </rect><text class="tick muted" text-anchor="middle" x="88.10" y="440">Sep 22</text><text class="tick muted" text-anchor="middle" x="285.50" y="440">Sep 29</text><text class="tick muted" text-anchor="middle" x="482.90" y="440">Oct 6</text><text class="tick muted" text-anchor="middle" x="680.30" y="440">Oct 13</text><text class="tick muted" text-anchor="middle" x="905.90" y="440">Oct 21</text>
   <path class="grid" d="M40 466H920"/>
   <text class="note muted" x="40" y="493">GitHub contribution calendar · UTC</text>
