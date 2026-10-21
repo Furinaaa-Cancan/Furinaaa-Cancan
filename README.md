@@ -8,75 +8,32 @@
 
 ---
 
-### Engineering
+### AI-Based Agent & RAG
 
-**Agentic RAG · code/repo search (ripgrep) · LLM / Agent** — architecture design and implementation of agent systems.
+#### Engineering
 
-**Full-stack development + deployment & ops** — delivering end-to-end enterprise systems.
+- Developing an advertising compliance agent for internal use at Zhongshen Law Firm and building a venture around the project, with primary responsibility for full-stack development, deployment and operations.
 
-<details>
-<summary><b>中文简介</b></summary>
+#### Research
 
-<br/>
-
-Agentic RAG · 代码/仓库检索 (ripgrep) · LLM / Agent —— 智能体架构设计与落地。
-
-全栈开发 + 部署运维，交付端到端企业级系统。
-
-</details>
+- **Multimodal Agents for Neurodevelopment** — Integrating MRI, EEG and behavioral data to explore individualized developmental assessment and caregiving support (ages 0–6).
+- **Auditable LLM-assisted Food Matching** — Matching NHANES dietary data across USDA, FNDDS, FPED, FPID and Phenol-Explorer.
 
 ---
 
 ### Bioinformatics
 
-**Heterogeneity-driven association analysis** across large population cohorts — **NHANES · KNHANES · UK Biobank · CHARLS · ELSA · ELSA-Brasil** — combining machine learning with epidemiological modeling, toward a **governance framework for AI-driven clinical prediction models** under top-journal review standards.
-
-**Auditable LLM-assisted food matching** across dietary-composition databases — **USDA · FNDDS · FPED · FPID · Phenol-Explorer**
-
-<details>
-<summary><b>中文简介</b></summary>
-
-<br/>
-
-基于大型人群队列（**NHANES、KNHANES、UK Biobank、CHARLS、ELSA、ELSA-Brasil**），结合机器学习与流行病学建模，开展异质性（heterogeneity）驱动的关联分析，建立「顶刊级审稿标准 × AI 驱动」的医学预测模型治理框架。
-
-基于膳食成分数据库（**USDA、FNDDS、FPED、FPID、Phenol-Explorer**）的可审计 LLM 辅助食物匹配。
-
-</details>
-
----
-
-### Neuroimaging
-
-**Infant brain development · ages 0–6** — multimodal analysis of longitudinal brain imaging, behavioral and environmental data, using medical-imaging AI to map how brain structure, function and connectivity develop, toward predicting cognitive outcomes and early identification of ASD and ADHD.
-
-<details>
-<summary><b>中文简介</b></summary>
-
-<br/>
-
-**婴幼儿脑发育 · 0–6 岁** —— 脑影像、行为与环境的多模态纵向数据分析，用医学影像人工智能刻画脑结构、功能与连接的发育轨迹，服务认知发展预测与 ASD、ADHD 等发育异常的早期识别。
-
-</details>
+- Combining machine learning and epidemiological modeling for heterogeneity-driven association studies across NHANES, KNHANES, UK Biobank, CHARLS, ELSA and ELSA-Brasil, while developing a framework for evaluating and governing AI-driven clinical prediction models.
 
 ---
 
 ### REM Lab
 
-**Resonance · Embodiment · Musicality** — a self-founded research group on how virtual characters look, speak, and sing.
+**Resonance · Embodiment · Musicality**
 
-**Live2D · AI Voice · AI Singing** — an all-AI workflow built with Codex for livestreaming and creator content: Live2D from illustration and rigging to expressions, lip sync and motion; character speech synthesis; and AI covers through vocal separation, voice conversion and mixing.
+A self-founded research group exploring virtual character design, voice and musical expression through AI-driven workflows with Codex and Claude.
 
-<details>
-<summary><b>中文简介</b></summary>
-
-<br/>
-
-**Resonance · Embodiment · Musicality** —— 自建独立课题组，研究虚拟角色的形象、声音与音乐表达。
-
-**Live2D · AI 语音 · AI 翻唱** —— 用 Codex 全 AI 制作，面向直播与自媒体内容：Live2D 从原画、建模到表情口型与动作；AI 语音做角色语音合成；AI 翻唱打通人声分离、音色转换与混音。
-
-</details>
+**Live2D · AI Voice · AI Singing** — From illustration, layering and rigging to character speech synthesis, vocal separation, voice conversion and mixing.
 
 ---
 
@@ -88,7 +45,7 @@ Agentic RAG · 代码/仓库检索 (ripgrep) · LLM / Agent —— 智能体架�
 
 <br/><br/>
 
-<!-- Activity Graph 趋势图 -->
+<!-- Activity Graph -->
 <img width="94%" src="profile/activity.svg" />
 
 </div>
