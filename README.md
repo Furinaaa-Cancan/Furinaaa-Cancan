@@ -40,13 +40,9 @@ A self-founded research group exploring virtual character design, voice and musi
 
 <div align="center">
 
-<!-- Stats + Streak -->
-<img width="46%" src="profile/stats.svg" />
-<img width="46%" src="profile/streak.svg" />
-
-<br/><br/>
-
-<!-- Activity Graph -->
-<img width="94%" src="profile/activity.svg" />
+<picture>
+  <source media="(max-width: 600px)" srcset="profile/activity-mobile.svg" />
+  <img width="100%" src="profile/activity.svg" alt="GitHub activity: all-time contributions, current and longest streaks, stars, and daily contributions over the last 30 days." />
+</picture>
 
 </div>
