@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { fetchProfile, summarize, renderCard } from './profile-card.mjs';
+import { fetchProfile, summarize, renderCard, renderDailySummary } from './profile-card.mjs';
 
 function profile(counts, start = '2026-10-01') {
   return {
@@ -24,6 +24,20 @@ test('today can be unfinished without breaking the current streak', () => {
   assert.equal(data.currentEnd, '2026-10-04');
   assert.equal(data.longestStart, '2026-10-02');
   assert.equal(data.longestEnd, '2026-10-04');
+});
+
+test('daily snapshot changes at Beijing midnight even when statistics and UTC date do not', () => {
+  const data = summarize(profile([0, 2, 3, 1, 0]), new Date('2026-10-05T10:00:00Z'));
+  const before = JSON.parse(renderDailySummary(data, new Date('2026-10-05T15:59:59Z')));
+  const after = JSON.parse(renderDailySummary(data, new Date('2026-10-05T16:00:00Z')));
+  assert.equal(before.date, '2026-10-05');
+  assert.equal(after.date, '2026-10-06');
+  assert.deepEqual({ ...before, date: after.date }, after);
+  assert.equal(after.calendarThroughUtcDate, '2026-10-05');
+  assert.equal(after.totalContributions, 6);
+  assert.equal(after.currentStreakDays, 3);
+  assert.equal(after.stars, 185);
+  assert.equal(renderDailySummary(data, new Date('2026-10-05T17:00:00Z')), JSON.stringify(after, null, 2) + '\n');
 });
 
 test('a missed completed day breaks the streak and leaves the historical maximum intact', () => {

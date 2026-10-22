@@ -137,6 +137,24 @@ export function summarize(profile, now = new Date()) {
   };
 }
 
+export function renderDailySummary(data, now = new Date()) {
+  return JSON.stringify({
+    date: isoDay(now.getTime() + 8 * 60 * 60 * 1000),
+    timeZone: 'Asia/Shanghai',
+    calendarThroughUtcDate: data.updated,
+    login: data.login,
+    totalContributions: data.contributions,
+    contributionsLast30Days: data.recentTotal,
+    currentStreakDays: data.current,
+    longestStreakDays: data.longest,
+    activeDaysLast365Days: data.activeDays,
+    stars: data.stars,
+    publicRepositories: data.repositories,
+    publicPullRequests: data.prs,
+    publicIssues: data.issues,
+  }, null, 2) + '\n';
+}
+
 // Three coordinated cards: stats and streak side by side, then a full-width graph.
 // Compact layout stacks the same cards without shrinking their labels.
 export function renderCard(data, compact = false) {
@@ -279,6 +297,9 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
       writeFileSync(`${path}.tmp`, renderCard(data, compact));
       renameSync(`${path}.tmp`, path);
     }
+    const summaryPath = join(directory, 'daily-summary.json');
+    writeFileSync(`${summaryPath}.tmp`, renderDailySummary(data, now));
+    renameSync(`${summaryPath}.tmp`, summaryPath);
     console.log(`Updated activity panels: ${number(data.contributions)} contributions, ${data.current}-day current streak, ${data.longest}-day longest streak, ${data.stars} stars; ${data.updated} UTC.`);
   } catch (error) {
     console.error(error.message);
