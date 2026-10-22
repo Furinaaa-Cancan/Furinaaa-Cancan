@@ -4,7 +4,8 @@ import { fetchProfile, summarize, renderCard } from './profile-card.mjs';
 
 function profile(counts, start = '2026-10-01') {
   return {
-    login: 'example', createdAt: `${start}T12:00:00Z`, stars: 185, repositories: 12,
+    login: 'example', name: 'Example', createdAt: `${start}T12:00:00Z`,
+    stars: 185, repositories: 12, prs: 51, issues: 95,
     days: counts.map((contributionCount, index) => ({
       date: new Date(Date.parse(start) + index * 86_400_000).toISOString().slice(0, 10),
       contributionCount,
@@ -19,12 +20,18 @@ test('today can be unfinished without breaking the current streak', () => {
   assert.equal(data.contributions, 6);
   assert.equal(data.recent.length, 30);
   assert.equal(data.recentTotal, 6);
+  assert.equal(data.currentStart, '2026-10-02');
+  assert.equal(data.currentEnd, '2026-10-04');
+  assert.equal(data.longestStart, '2026-10-02');
+  assert.equal(data.longestEnd, '2026-10-04');
 });
 
 test('a missed completed day breaks the streak and leaves the historical maximum intact', () => {
   const data = summarize(profile([1, 1, 1, 0, 1, 0, 0]), new Date('2026-10-07T23:00:00Z'));
   assert.equal(data.current, 0);
   assert.equal(data.longest, 3);
+  assert.equal(data.currentStart, null);
+  assert.equal(data.currentEnd, null);
 });
 
 test('streak includes today when active and handles leap days', () => {
@@ -32,6 +39,8 @@ test('streak includes today when active and handles leap days', () => {
   assert.equal(data.current, 3);
   assert.equal(data.longest, 3);
   assert.equal(data.contributions, 6);
+  assert.equal(data.currentStart, '2024-02-28');
+  assert.equal(data.longestEnd, '2024-03-01');
 });
 
 test('calendar duplicates do not inflate totals; conflicting or missing dates fail', () => {
@@ -47,20 +56,25 @@ test('calendar duplicates do not inflate totals; conflicting or missing dates fa
 
 test('desktop and mobile panels handle an empty activity period and escape user text', () => {
   const data = summarize(profile([0, 0, 0]), new Date('2026-10-03T10:00:00Z'));
+  data.name = 'A&B<test>';
   data.login = 'A&B<test>';
   for (const compact of [false, true]) {
     const svg = renderCard(data, compact);
-    assert.match(svg, /A&amp;B&lt;test&gt;/);
-    assert.doesNotMatch(svg, /NaN|Infinity|undefined/);
-    assert.match(svg, /0 contributions \/ 30 days/);
-    assert.match(svg, compact ? /viewBox="0 0 480 680"/ : /viewBox="0 0 960 520"/);
+    const markup = svg.replace(/data:image\/png;base64,[A-Za-z0-9+/=]+/g, 'embedded-image');
+    assert.ok(svg.includes('A&amp;B&lt;test&gt;'), 'user text must be escaped');
+    assert.ok(!/NaN|Infinity|undefined/.test(markup), 'all coordinates and values must be finite');
+    assert.ok(svg.includes('0 contributions in the last 30 days'));
+    assert.ok(svg.includes(compact ? 'viewBox="0 0 480 828"' : 'viewBox="0 0 960 576"'));
+    assert.ok(svg.includes('href="data:image/png;base64,'), 'character must be self-contained');
+    assert.ok(!svg.includes('href="http'), 'SVG images must not depend on remote resources');
   }
 });
 
 test('API collector paginates public stars and queries all account years', async () => {
   const queries = [];
   const responses = [
-    { user: { login: 'example', createdAt: '2024-08-16T10:00:00Z' } },
+    { user: { login: 'example', name: 'Example', createdAt: '2024-08-16T10:00:00Z' },
+      prs: { issueCount: 51 }, issues: { issueCount: 95 } },
     { user: { repositories: { nodes: [{ stargazerCount: 4 }], pageInfo: { hasNextPage: true, endCursor: 'next' } } } },
     { user: { repositories: { nodes: [{ stargazerCount: 7 }], pageInfo: { hasNextPage: false } } } },
     { user: { y2024: { contributionCalendar: { weeks: [{ contributionDays: [{ date: '2024-08-16', contributionCount: 3 }] }] } } } },
@@ -73,6 +87,9 @@ test('API collector paginates public stars and queries all account years', async
   const result = await fetchProfile('example', 'test-token', new Date('2026-10-21T10:00:00Z'), request);
   assert.equal(result.stars, 11);
   assert.equal(result.repositories, 2);
+  assert.equal(result.prs, 51);
+  assert.equal(result.issues, 95);
+  assert.equal(queries[0].variables.prQuery, 'author:example is:pr is:public');
   assert.equal(result.days.length, 1);
   assert.match(queries[1].query, /privacy: PUBLIC/);
   assert.equal(queries[2].variables.after, 'next');

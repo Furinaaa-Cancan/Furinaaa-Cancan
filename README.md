@@ -42,7 +42,7 @@ A self-founded research group exploring virtual character design, voice and musi
 
 <picture>
   <source media="(max-width: 600px)" srcset="profile/activity-mobile.svg" />
-  <img width="100%" src="profile/activity.svg" alt="GitHub activity: all-time contributions, current and longest streaks, stars, and daily contributions over the last 30 days." />
+  <img width="100%" src="profile/activity.svg" alt="GitHub stats and contribution streak side by side, with a contribution activity graph below." />
 </picture>
 
 </div>
